@@ -1,22 +1,25 @@
 import { useState } from "react";
 import mswLogo from "./assets/msw.svg";
 import mathLogo from "/math.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { Alert, Button } from "react-bootstrap";
 
 function App() {
     const [ count, setCount ] = useState(0);
+    const [ show, setShow ] = useState(true);
 
     return (
         <>
             <div>
-                <a href="/" target="_blank">
+                <a href="/">
                     <img
                         src={mathLogo}
                         className="logo"
                         alt="Math Logo"
                     />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="#">
                     <img
                         src={mswLogo}
                         className="logo react"
@@ -29,6 +32,37 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <div>
+                <Alert show={show} variant="success">
+                    <Alert.Heading>My Alert</Alert.Heading>
+                    <p>
+                        Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit. Cras mattis
+                        consectetur purus sit amet fermentum.
+                    </p>
+                    <hr />
+                    <div className="d-flex justify-content-end">
+                        <Button
+                            onClick={() => setShow(false)}
+                            variant="outline-success"
+                        >
+                            Close me
+                        </Button>
+                    </div>
+                </Alert>
+
+                {
+                    !show &&
+                    <Button onClick={() => setShow(true)}>
+                        Show Alert
+                    </Button>
+                }
             </div>
         </>
     );
