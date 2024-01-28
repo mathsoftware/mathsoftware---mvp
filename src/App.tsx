@@ -9,18 +9,18 @@ function App() {
     return (
         <>
             <div>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="/" target="_blank">
                     <img
                         src={mathLogo}
                         className="logo"
-                        alt="Vite logo"
+                        alt="Math Logo"
                     />
                 </a>
-                <a href="https://react.dev" target="_blank" rel="noreferrer">
+                <a href="#" target="_blank" rel="noreferrer">
                     <img
                         src={mswLogo}
                         className="logo react"
-                        alt="React logo"
+                        alt="MSW Logo"
                     />
                 </a>
             </div>
@@ -29,13 +29,7 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
             </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
         </>
     );
 }
