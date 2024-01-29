@@ -1,0 +1,40 @@
+<!-- Copyright (c) 2024 Tobias Briones. All rights reserved. -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<!-- This file is part of MVP: Math Software @https://github.com/mathsoftware -->
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="268.25"
+     height="28"
+     role="img"
+     aria-label="PROJECT: MVP: Math.Software">
+    <title>PROJECT: 2DP REPSYMO SOLVER</title>
+    <g shape-rendering="crispEdges">
+        <rect width="93.75" height="28" fill="#555"/>
+        <rect x="93.75" width="174.5" height="28" fill="#0277bd"/>
+    </g>
+    <g fill="#fff"
+       text-anchor="middle"
+       font-family="Poppins Medium,sans-serif"
+       text-rendering="geometricPrecision"
+       font-size="100">
+        <image x="9"
+               y="7"
+               width="14"
+               height="14"
+               xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAFfUExURR960yF71AFnzRBx0R140iB60x150ghszw1v0QNpzhBw0Qtuzw5v0h550h140hp30hl20hh20ht30ih/1Rx40hp30xl20hp30iF70xt30hl20h140xx40ht30mN6hoqwwztESIqvwhh10qSkpGeAjWiBjR550xl30yd+1SJ80xp20h150xl31Bx30SV+0yV90xx40hd10hdyzBtZlixNa3qoxoe623Ot2ESQ1SF81kh2oyIlKCEgHl91f53I3p3I3ZbC21ue1xZ00Wel49rd4EdHRh4eHiwxM5vG3B9507rW8f///56eniEhISAgICAfHy6D1tzq+Ie52t3r+YKCgiEgIIa52h9607bS7qmopi8vLx8fH2V9ip7I3hh31D99uy8yNR4dHXp6ejg4ODY9QIatwkWS1htJdpSTkiIgHiElKDVqnB161bbT7t7s+sXT4TdUbxpYlhhzzC+D1h140kkHCP8AAAAsdFJOUwAAAAAAAAAAAAAAAAAAM5ng/DMDY9/fYwNj9DMzmf7+/v78/v7+M/QDA+AzOjxwogAAAAFiS0dES2kLhVAAAAAHdElNRQfoAR0CLCSvZs6sAAAA1ElEQVQI12NgYGTi4xcQFBTgF2JmYWFgFRYR1dHV0zcwFBOXYGNgl5QyMjYxNTO3MJCS5GCQFrO0sraxtbN3cDQQk2GQdXJ2cXVzl5P3cLAw5GcQ8PTy9vH181dQtDc3EGBQCgj0Vvbz9fVXsQvSFwRyg71D3Hx9Q1XtwoBcgfCIyKhoNz/fmFiQYtm4+ITEqKRkt5TUNKBRaqJG6QmR3hmZWdk5YkIMnCLqRvG5efkFhUVS4lwMrBqSonHhAcUlOqKSmmwMDAzc0rJaSkpasto8vCwA2dAoHOC5O/gAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMDEtMjlUMDI6NDQ6MTMrMDA6MDCqtJcDAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTAxLTI5VDAyOjQ0OjEzKzAwOjAw2+kvvwAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNC0wMS0yOVQwMjo0NDozNiswMDowMJzhJroAAAAASUVORK5CYII="/>
+        <text transform="scale(.1)"
+              x="553.75"
+              y="175"
+              textLength="527.5"
+              fill="#fff">PROJECT
+        </text>
+        <text transform="scale(.1)"
+              x="1810"
+              y="175"
+              textLength="1505"
+              fill="#fff"
+              font-weight="bold">MVP: Math.Software
+        </text>
+    </g>
+</svg>
