@@ -21,6 +21,16 @@ MVP (Minimum Viable Project) of the **Math.Software** web app aiming for a
 modern approach to mathematics formalized by mathematical software engineering
 and further domain-specific apps and tools.
 
+## Getting Started
+
+Install project dependencies via `npm install`.
+
+Run development mode via `npm run dev`.
+
+Build for production via `npm run build`.
+
+Run ESLint via `npx eslint .`.
+
 ## Contact
 
 Tobias Briones: [GitHub](https://github.com/tobiasbriones)
