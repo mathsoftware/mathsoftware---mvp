@@ -50,7 +50,7 @@ module.exports = {
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off",
     },
-    ignorePatterns: [ ".eslintrc.cjs" ],
+    ignorePatterns: [ ".eslintrc.cjs", "dist/*" ],
     overrides: [
         {
             env: { node: true, },
