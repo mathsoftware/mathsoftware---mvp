@@ -1,3 +1,7 @@
+// Copyright (c) 2024 Tobias Briones. All rights reserved.
+// SPDX-License-Identifier: BSD-3-Clause
+// This file is part of https://github.com/mathsoftware/mathsoftware---mvp
+
 import { useState } from "react";
 import mswLogo from "./assets/msw.svg";
 import mathLogo from "/math.svg";
