@@ -1,0 +1,152 @@
+/* Copyright (c) 2024 Tobias Briones. All rights reserved. */
+/* SPDX-License-Identifier: BSD-3-Clause */
+/* This file is part of https://github.com/mathsoftware/mathsoftware---mvp */
+
+/* These are some of the compatible styles I made for MSW Engineer in 2023 */
+
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 320px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+:root {
+    --content-background-color: #fff;
+    --title-text-color: #212121;
+    --content-text-color: #424242;
+    --secondary-text-color: #616161;
+    --third-text-color: #757575;
+    --accent-color: #607d8b;
+    --hover-background-color: #f5f5f5;
+    --accent-blue-text-color: #1565c0;
+}
+
+:root {
+    --content-padding: 5%;
+    --nav-height: 4rem;
+}
+
+body {
+    background-color: var(--content-background-color);
+    color: var(--content-text-color);
+}
+
+
+h1, h2, h3, h4, h5, figcaption {
+    font-weight: bold;
+    color: var(--title-text-color);
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+a {
+    color: var(--accent-blue-text-color);
+}
+
+footer {
+    padding: var(--content-padding);
+    margin-bottom: 64px;
+}
+
+footer h5 {
+    font-size: 1rem;
+}
+
+footer {
+    font-size: 0.875rem;
+}
+
+footer > .nav ul {
+    list-style-type: none;
+}
+
+footer > .nav a {
+    font-weight: bold;
+    color: #37474f;
+}
+
+footer .legal .notice,
+footer .legal .notice p,
+footer .legal .notice a {
+    font-size: 0.625rem;
+}
+
+
+p img,
+figure img,
+figure video {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+}
+
+video {
+    min-width: 60%;
+}
+
+img ~ figcaption,
+video ~ figcaption {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure > figcaption {
+    padding: 0.5rem;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+@media screen and (min-width: 720px) {
+    footer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    footer {
+        position: absolute;
+        width: 25%;
+        top: 100%;
+        left: 75%;
+        padding: var(--content-padding);
+        margin-bottom: 0;
+    }
+}
