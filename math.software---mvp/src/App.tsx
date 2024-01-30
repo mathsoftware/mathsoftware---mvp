@@ -4,6 +4,7 @@ import mathLogo from "/math.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Alert, Button } from "react-bootstrap";
+import { MathJax } from "better-react-mathjax";
 
 function App() {
     const [ count, setCount ] = useState(0);
@@ -34,15 +35,22 @@ function App() {
                 </button>
             </div>
 
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <p>
+                Contemplate the magnificence of
+                <MathJax>
+                    {"`radius = 200 |sin(1/5 omega)| (px)`"}
+                </MathJax>
+            </p>
 
             <div>
                 <Alert show={show} variant="success">
                     <Alert.Heading>My Alert</Alert.Heading>
                     <p>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor
+                        Duis mollis, est non commodo luctus, nisi erat
+                        porttitor
                         ligula, eget lacinia odio sem nec elit. Cras mattis
                         consectetur purus sit amet fermentum.
                     </p>
