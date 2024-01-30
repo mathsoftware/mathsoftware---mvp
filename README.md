@@ -10,6 +10,8 @@
 
 [![GitHub Project License](https://img.shields.io/github/license/mathsoftware/mathsoftware---mvp.svg?style=flat-square)](https://github.com/mathsoftware/mathsoftware---mvp/blob/main/LICENSE)
 
+![GitHub Release](https://img.shields.io/github/v/release/mathsoftware/mathsoftware---mvp?style=flat-square)
+
 MVP (Minimum Viable Project) of the **Math Software** organization aiming for a
 modern approach to mathematics formalized by mathematical software engineering
 and further domain-specific apps and tools.
@@ -17,6 +19,8 @@ and further domain-specific apps and tools.
 ## MVP: Math.Software
 
 [![Project](math.software---mvp/public/msw-mvp-app-badge.svg)](https://math.software)
+
+![GitHub Release](math.software---mvp/public/msw-mvp-app-release-badge.svg)
 
 ⚙ Production
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8357cab6-2ebe-4746-9a6e-bff042e6e031/deploy-status)](https://app.netlify.com/sites/mathsoftware/deploys)
