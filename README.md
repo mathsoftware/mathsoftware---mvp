@@ -29,6 +29,8 @@ and further domain-specific apps and tools.
 
 MVP of the **Math.Software** web app.
 
+Project Root: [./math.software---mvp](math.software---mvp).
+
 ## Contact
 
 Tobias Briones: [GitHub](https://github.com/tobiasbriones)
