@@ -12,31 +12,29 @@ import { defCircle, newCircle } from "@math/geo.ts";
 function App() {
     const [ circle, setCircle ] = useState(defCircle);
 
-    return (
-        <>
-            <p>
-                Contemplate the magnificence of
-                <MathJax>
-                    { "`radius = 200 |sin(1/5 omega)| (px)`" }
-                </MathJax>
-            </p>
-            <p>
-                Position { circle.cp.toString() }, Radius: { circle.radius }
-            </p>
+    return <>
+        <p>
+            Contemplate the magnificence of
+            <MathJax>
+                { "`radius = 200 |sin(1/5 omega)| (px)`" }
+            </MathJax>
+        </p>
+        <p>
+            Position { circle.cp.toString() }, Radius: { circle.radius }
+        </p>
 
-            <div>
-                <Button
-                    variant="primary"
-                    onClick={ () => setCircle(newCircle(
-                        circle.cp,
-                        circle.radius + 1,
-                    )) }
-                >
-                    Increase the Radius
-                </Button>
-            </div>
-        </>
-    );
+        <div>
+            <Button
+                variant="primary"
+                onClick={ () => setCircle(newCircle(
+                    circle.cp,
+                    circle.radius + 1,
+                )) }
+            >
+                Increase the Radius
+            </Button>
+        </div>
+    </>;
 }
 
 export default App;
