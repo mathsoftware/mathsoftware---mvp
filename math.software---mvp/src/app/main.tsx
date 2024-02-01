@@ -5,7 +5,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
-import "./msw-engineer.css";
+import "./assets/msw-engineer.css";
 import MathJaxContext from "better-react-mathjax/MathJaxContext";
 
 const mathJaxConfig = {
