@@ -3,11 +3,11 @@
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "@app/App.css";
 import { MathJax } from "better-react-mathjax";
 import { useState } from "react";
-import { defCircle, newCircle } from "../math/geo.ts";
 import { Button } from "react-bootstrap";
+import { defCircle, newCircle } from "@math/geo.ts";
 
 function App() {
     const [ circle, setCircle ] = useState(defCircle);

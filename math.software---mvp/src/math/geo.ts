@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
-import { toString, ToString } from "../sys/sys.ts";
+import { toString, ToString } from "@sys/sys.ts";
 
 export interface Point extends ToString {
     x: number;
