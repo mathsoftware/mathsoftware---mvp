@@ -5,16 +5,36 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { MathJax } from "better-react-mathjax";
+import { useState } from "react";
+import { defCircle, newCircle } from "../math/geo.ts";
+import { Button } from "react-bootstrap";
 
 function App() {
+    const [ circle, setCircle ] = useState(defCircle);
+
     return (
         <>
             <p>
                 Contemplate the magnificence of
                 <MathJax>
-                    {"`radius = 200 |sin(1/5 omega)| (px)`"}
+                    { "`radius = 200 |sin(1/5 omega)| (px)`" }
                 </MathJax>
             </p>
+            <p>
+                Position { circle.cp.toString() }, Radius: { circle.radius }
+            </p>
+
+            <div>
+                <Button
+                    variant="primary"
+                    onClick={ () => setCircle(newCircle(
+                        circle.cp,
+                        circle.radius + 1,
+                    )) }
+                >
+                    Increase the Radius
+                </Button>
+            </div>
         </>
     );
 }
