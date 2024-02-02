@@ -4,10 +4,12 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@app/App.css";
+import mswIcon from "@app/assets/msw.svg";
 import { MathJax } from "better-react-mathjax";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import { defCircle, newCircle } from "@math/geo.ts";
+import Image from "@ui/Image.tsx";
 
 function App() {
     const [ circle, setCircle ] = useState(defCircle);
@@ -33,6 +35,14 @@ function App() {
             >
                 Increase the Radius
             </Button>
+        </div>
+
+        <div>
+            <Image
+                src={ mswIcon }
+                caption="MSW: Providing Modern Mathematics"
+            >
+            </Image>
         </div>
     </>;
 }

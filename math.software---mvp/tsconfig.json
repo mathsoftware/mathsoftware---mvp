@@ -12,6 +12,7 @@
             "@/*": [ "src/*" ],
             "@sys/*": [ "src/sys/*" ],
             "@math/*": [ "src/math/*" ],
+            "@ui/*": [ "src/ui/*" ],
             "@app/*": [ "src/app/*" ],
         },
 

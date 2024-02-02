@@ -18,6 +18,7 @@ export default defineConfig(
                 "@": resolve(__dirname, "src"),
                 "@sys": resolve(__dirname, "src/sys"),
                 "@math": resolve(__dirname, "src/math"),
+                "@ui": resolve(__dirname, "src/ui"),
                 "@app": resolve(__dirname, "src/app"),
             },
         },
