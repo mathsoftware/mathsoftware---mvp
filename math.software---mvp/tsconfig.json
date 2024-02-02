@@ -6,6 +6,16 @@
         "module": "ES2022",
         "skipLibCheck": true,
 
+        /* Aliases */
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [ "src/*" ],
+            "@sys/*": [ "src/sys/*" ],
+            "@math/*": [ "src/math/*" ],
+            "@ui/*": [ "src/ui/*" ],
+            "@app/*": [ "src/app/*" ],
+        },
+
         /* Bundler mode */
         "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
