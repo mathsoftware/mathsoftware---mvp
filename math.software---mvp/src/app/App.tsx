@@ -10,6 +10,7 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 import { defCircle, newCircle } from "@math/geo.ts";
 import Image from "@ui/Image.tsx";
+import Footer from "@app/Footer.tsx";
 
 function App() {
     const [ circle, setCircle ] = useState(defCircle);
@@ -44,6 +45,8 @@ function App() {
             >
             </Image>
         </div>
+
+        <Footer></Footer>
     </>;
 }
 
