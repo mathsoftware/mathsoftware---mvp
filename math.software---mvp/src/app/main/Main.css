@@ -24,10 +24,14 @@ main section > a > img.nav-icon {
     margin-bottom: 1rem;
 }
 
+main section > p {
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .heading + p,
 .subheading + p {
     padding: 1rem;
     font-size: 1.8rem;
     font-family: "Poppins Light", sans-serif;
-    text-align: center;
 }
