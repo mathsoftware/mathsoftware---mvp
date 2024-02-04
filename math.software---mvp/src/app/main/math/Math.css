@@ -1,0 +1,31 @@
+/* Copyright (c) 2024 Tobias Briones. All rights reserved. */
+/* SPDX-License-Identifier: BSD-3-Clause */
+/* This file is part of https://github.com/mathsoftware/mathsoftware---mvp */
+
+.math-forthcoming {
+    width: 100%;
+    height: 50vh;
+}
+
+.math-forthcoming img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-aspect-ratio: 1/2) {
+    .math-forthcoming {
+        height: 75vh;
+    }
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .math-forthcoming {
+        height: 100vh;
+    }
+}
+
+@media (min-aspect-ratio: 3/2) {
+    .math-forthcoming {
+        height: 125vh;
+    }
+}
