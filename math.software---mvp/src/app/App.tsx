@@ -4,50 +4,12 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@app/App.css";
-import mswIcon from "@app/assets/msw.svg";
-import { MathJax } from "better-react-mathjax";
-import { useState } from "react";
-import { Button } from "react-bootstrap";
-import { defCircle, newCircle } from "@math/geo.ts";
-import Image from "@ui/Image.tsx";
 import Footer from "@app/Footer.tsx";
 import Main from "@app/main/Main.tsx";
 
 function App() {
-    const [ circle, setCircle ] = useState(defCircle);
-
     return <>
         <Main></Main>
-
-        <p>
-            Contemplate the magnificence of
-            <MathJax>
-                { "`radius = 200 |sin(1/5 omega)| (px)`" }
-            </MathJax>
-        </p>
-        <p>
-            Position { circle.cp.toString() }, Radius: { circle.radius }
-        </p>
-
-        <div>
-            <Button
-                variant="primary"
-                onClick={ () => setCircle(newCircle(
-                    circle.cp,
-                    circle.radius + 1,
-                )) }
-            >
-                Increase the Radius
-            </Button>
-        </div>
-
-        <div>
-            <Image
-                src={ mswIcon }
-                caption="MSW: Providing Modern Mathematics"
-            >
-            </Image>
-        </div>
 
         <Footer></Footer>
     </>;

@@ -3,13 +3,19 @@
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
 import Header from "@app/main/Header.tsx";
+import "@app/main/Main.css";
+import Msw from "@app/main/msw/Msw.tsx";
 
 function Main() {
     return <>
         <section>
             <main>
                 <article>
-                    <Header></Header>
+                    <section id="math">
+                        <Header></Header>
+                    </section>
+
+                    <Msw></Msw>
                 </article>
             </main>
         </section>

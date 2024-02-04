@@ -1,0 +1,24 @@
+/* Copyright (c) 2024 Tobias Briones. All rights reserved. */
+/* SPDX-License-Identifier: BSD-3-Clause */
+/* This file is part of https://github.com/mathsoftware/mathsoftware---mvp */
+
+main section {
+    display: flex;
+    padding: 0 5vw;
+    align-content: center;
+    flex-direction: column;
+}
+
+main section.full {
+    padding: 0;
+}
+
+main section > a > h2 {
+    padding: 0.125rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main section > a > img.nav-icon {
+    margin-bottom: 1rem;
+}
