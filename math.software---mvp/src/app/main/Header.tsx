@@ -40,7 +40,7 @@ function Header() {
     return <>
         <header>
             <nav
-                className={ `d-flex w-50 p-0 fixed-top ${ navHideMode }` }
+                className={ `d-flex p-0 fixed-top ${ navHideMode }` }
             >
                 <div className="bg"></div>
                 <ul className="navbar-nav center">

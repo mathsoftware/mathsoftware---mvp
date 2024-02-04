@@ -3,7 +3,7 @@
 /* This file is part of https://github.com/mathsoftware/mathsoftware---mvp */
 
 nav {
-    width: 80%;
+    width: 50%;
     margin: auto;
     border-radius: 1rem;
     transition: transform 0.4s;
@@ -83,5 +83,11 @@ h1 {
 @media (min-width: 1200px) {
     nav.compact {
         transform: translateY(-52px);
+    }
+}
+
+@media (min-aspect-ratio: 4/3) {
+    nav {
+        width: 30%;
     }
 }
