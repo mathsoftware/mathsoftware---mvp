@@ -3,21 +3,25 @@
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
 import mswIcon from "@app/assets/msw.svg";
+import { Heading } from "@app/main/Heading.tsx";
 
 function Msw() {
     return <>
         <section>
-            <a
-                className="navbar-brand nav-link flex-fill p-0"
-                href="#msw"
-            >
-                <h2>Math Software</h2>
-                <img
-                    src={ mswIcon }
-                    alt="Math Software"
-                    className="nav-icon"
-                />
-            </a>
+            <Heading id="msw" title="Math Software" icon={ mswIcon }></Heading>
+
+            <p>Modern Mathematics Powered by Engineering</p>
+
+            <p>
+                MSW provides a modern approach to mathematics formalized by
+                mathematical software engineering and further domain-specific
+                apps and tools.
+            </p>
+
+            <p>
+                Mathematical software is either <b>Pure</b>, <b>Applied</b>, or
+                <b> Special</b>.
+            </p>
         </section>
     </>;
 }
