@@ -16,7 +16,7 @@ header {
 }
 
 nav.compact {
-    transform: translateY(-38px);
+    transform: translateY(-40px);
 }
 
 nav.hidden {
@@ -72,6 +72,12 @@ h1 {
     width: 3rem;
     margin: 0.5rem 0;
     align-self: center;
+}
+
+@media (min-width: 960px) {
+    nav.compact {
+        transform: translateY(-48px);
+    }
 }
 
 @media (min-width: 1200px) {
