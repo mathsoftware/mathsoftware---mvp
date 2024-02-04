@@ -19,6 +19,10 @@ nav.compact {
     transform: translateY(-38px);
 }
 
+nav.hidden {
+    transform: translateY(-100%);
+}
+
 nav > .bg {
     position: absolute;
     width: 100%;
