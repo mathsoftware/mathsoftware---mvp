@@ -10,10 +10,24 @@ interface HeadingProps {
     icon: string;
 }
 
+function getHeadingClass(heading: JSX.Element) {
+    const name = heading.type as string;
+
+    if (name === "h2") {
+        return "heading";
+    }
+    else {
+        return "subheading";
+    }
+}
+
 function HeadingCard(heading: JSX.Element, id: string, icon: string) {
+    const hClass = getHeadingClass(heading);
+    const classes = `navbar-brand nav-link flex-fill p-0 ${ hClass }`;
+
     return <>
         <a
-            className="navbar-brand nav-link flex-fill p-0"
+            className={ classes }
             href={ `#${ id }` }
         >
             { heading }
