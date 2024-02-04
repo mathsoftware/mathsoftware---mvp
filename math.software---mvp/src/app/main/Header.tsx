@@ -34,7 +34,7 @@ function Header() {
                     <li className="nav-item d-flex flex-column">
                         <a
                             className="navbar-brand nav-link flex-fill p-0"
-                            href="/public"
+                            href="/"
                         >
                             <h1>Math</h1>
                             <img
