@@ -13,7 +13,8 @@ main section.full {
     padding: 0;
 }
 
-main section > a > h2 {
+main section > a > h2,
+main section > a > h3 {
     padding: 0.125rem;
     margin-bottom: 0;
     text-align: center;
