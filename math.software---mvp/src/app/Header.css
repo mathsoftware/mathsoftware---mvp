@@ -1,0 +1,71 @@
+/* Copyright (c) 2024 Tobias Briones. All rights reserved. */
+/* SPDX-License-Identifier: BSD-3-Clause */
+/* This file is part of https://github.com/mathsoftware/mathsoftware---mvp */
+
+nav {
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+    transition: transform 0.4s;
+}
+
+nav.compact {
+    transform: translateY(-38px);
+}
+
+nav > .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.2;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+nav > ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    flex: 1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+nav > ul.center {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: none;
+}
+
+h1 {
+    padding: 0.125rem;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    align-self: stretch;
+    text-align: center;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.nav-icon {
+    display: block;
+    width: 3rem;
+    margin: 0.5rem 0;
+    align-self: center;
+}
+
+@media (min-width: 1200px) {
+    nav.compact {
+        transform: translateY(-52px);
+    }
+}
