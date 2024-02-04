@@ -11,13 +11,13 @@ import { Button } from "react-bootstrap";
 import { defCircle, newCircle } from "@math/geo.ts";
 import Image from "@ui/Image.tsx";
 import Footer from "@app/Footer.tsx";
-import Header from "@app/Header.tsx";
+import Main from "@app/main/Main.tsx";
 
 function App() {
     const [ circle, setCircle ] = useState(defCircle);
 
     return <>
-        <Header></Header>
+        <Main></Main>
 
         <p>
             Contemplate the magnificence of

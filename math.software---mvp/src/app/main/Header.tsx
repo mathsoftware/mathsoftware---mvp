@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: BSD-3-Clause
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
-import "@app/Header.css";
+import "@app/main/Header.css";
 import { useEffect, useState } from "react";
 
 function Header() {
@@ -34,7 +34,7 @@ function Header() {
                     <li className="nav-item d-flex flex-column">
                         <a
                             className="navbar-brand nav-link flex-fill p-0"
-                            href="/"
+                            href="/public"
                         >
                             <h1>Math</h1>
                             <img
