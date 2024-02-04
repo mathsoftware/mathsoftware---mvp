@@ -4,7 +4,7 @@
 
 .math-forthcoming {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
 }
 
 .math-forthcoming img {
@@ -14,7 +14,7 @@
 
 @media (min-aspect-ratio: 1/2) {
     .math-forthcoming {
-        height: 50vh;
+        height: 75vh;
     }
 }
 
