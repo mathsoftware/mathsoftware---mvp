@@ -4,6 +4,7 @@
 
 import mswIcon from "@app/assets/msw.svg";
 import pureIcon from "@app/assets/pure.svg";
+import appliedIcon from "@app/assets/applied.svg";
 import { Heading, SubHeading } from "@app/main/Heading.tsx";
 
 function Msw() {
@@ -52,6 +53,22 @@ function Msw() {
                     in <a href="/">math.software </a>
                     empowering <b>focused</b> mathematicians with no engineering
                     requirements.
+                </p>
+            </section>
+
+            <section>
+                <SubHeading
+                    id="applied"
+                    title="Applied"
+                    icon={ appliedIcon }
+                ></SubHeading>
+
+                <p>Applying Pure MSW for Concrete Representations</p>
+
+                <p>
+                    Meaningful real-world representations can be derived from
+                    pure mathematical software, like operations research, model
+                    visualization, education, etc.
                 </p>
             </section>
         </section>
