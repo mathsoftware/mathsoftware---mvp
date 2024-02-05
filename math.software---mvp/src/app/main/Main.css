@@ -4,27 +4,26 @@
 
 main > article > section {
     display: flex;
-    padding: var(--content-padding);
-    padding-top: 0;
     flex-direction: column;
 }
 
-main section.full {
-    padding: 0;
+main section > .wrap {
+    padding: var(--content-padding);
+    padding-top: 0;
 }
 
-main section > a > h2,
-main section > a > h3 {
+main section .wrap > a > h2,
+main section .wrap > a > h3 {
     padding: 0.125rem;
     margin-bottom: 0;
     text-align: center;
 }
 
-main section > a > img.nav-icon {
+main section .wrap > a > img.nav-icon {
     margin-bottom: 1rem;
 }
 
-main section > p {
+main section .wrap > p {
     padding: 1rem 0;
     text-align: center;
 }
@@ -37,7 +36,7 @@ main section > p {
 }
 
 @media (min-width: 1200px) {
-    main > article > section {
+    main section > .wrap {
         margin: 0 30vw;
     }
 }

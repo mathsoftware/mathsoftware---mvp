@@ -12,7 +12,7 @@ function Main() {
         <section>
             <main>
                 <article>
-                    <section id="math" className="full">
+                    <section id="math">
                         <Header></Header>
                         <Math></Math>
                     </section>
