@@ -5,6 +5,7 @@
 import mswIcon from "@app/assets/msw.svg";
 import pureIcon from "@app/assets/pure.svg";
 import appliedIcon from "@app/assets/applied.svg";
+import specialIcon from "@app/assets/special.png";
 import { Heading, SubHeading } from "@app/main/Heading.tsx";
 
 function Msw() {
@@ -71,6 +72,29 @@ function Msw() {
                     visualization, education, etc.
                 </p>
             </section>
+
+            <section>
+                <SubHeading
+                    id="special"
+                    title="Special"
+                    icon={ specialIcon }
+                ></SubHeading>
+
+                <p>Special Software and Models</p>
+
+                <p>
+                    Extended software required in real-world computing like,
+                    operations, high-performance implementations, and academic
+                    tools are, examples of external domains for powering modern
+                    mathematics.
+                </p>
+
+                <p>
+                    All the necessary tools extrinsic to mathematics are aimed
+                    to be equipped by <b>SWAM (Special Software and Models)</b>.
+                </p>
+            </section>
+
         </section>
     </>;
 }
