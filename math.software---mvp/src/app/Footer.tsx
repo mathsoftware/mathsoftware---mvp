@@ -3,6 +3,9 @@
 // This file is part of https://github.com/mathsoftware/mathsoftware---mvp
 
 import { APP_VERSION_LABEL } from "@/info.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
 function Footer() {
     return <>
@@ -38,6 +41,38 @@ function Footer() {
                     </div>
                 </section>
 
+                <section className="col-6">
+                    <h5>
+                        Social
+                    </h5>
+
+                    <div className="social my-2">
+                        <div>MSW Open Source:</div>
+
+                        <a
+                            className="btn btn-github"
+                            href="https://github.com/mathsoftware"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={ faGithub }></FontAwesomeIcon>
+                        </a>
+
+                        <br/>
+                        <br/>
+                        <div>Follow <b>MathSwe</b> to stay updated:</div>
+
+                        <a
+                            className="btn btn-linkedin"
+                            href="https://www.linkedin.com/company/mathswe"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={ faLinkedin }></FontAwesomeIcon>
+                        </a>
+                    </div>
+                </section>
+
                 <section className="col-12 legal">
                     <h5>
                         Legal
@@ -51,11 +86,13 @@ function Footer() {
 
                     <div className="notice">
                         <p>
-                            <b>Web App</b>&nbsp;
+                            <b>Web App</b>
+                            &nbsp;
                             licensed under the&nbsp;
                             <a href="https://github.com/mathsoftware/mathsoftware---mvp/blob/main/math.software---mvp/LICENSE">
                                 BSD-3-Clause License
-                            </a>.
+                            </a>
+                            .
                         </p>
                         <p>
                             Consult other projects in the platform for their
