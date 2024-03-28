@@ -10,6 +10,25 @@ function App() {
     const [ count, setCount ] = useState(0);
     const [ show, setShow ] = useState(true);
 
+    useEffect(() => {
+        fetch(
+            "https://mathswe-cookie-consent-staging.tobiasbriones-dev.workers.dev/",
+            {
+                method: "POST",
+                body: JSON.stringify(
+                    {
+                        "essential": true,
+                        "functional": true,
+                        "analytics": true,
+                        "targeting": true,
+                    },
+                ),
+            },
+        )
+            .then(r => console.log(r.json()))
+            .catch(r => console.log(r));
+    });
+
     return (
         <>
             <div>
